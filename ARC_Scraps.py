@@ -9,3 +9,7 @@ dates.index = dates['Inception Date']
 dates['Count'] = 1
 yo = dates['Count','Fund Size EUR']
 by_year = yo.resample('BA-May',how='sum')
+
+"""
+Chchanges
+"""
