@@ -10,6 +10,8 @@ dates['Count'] = 1
 yo = dates['Count','Fund Size EUR']
 by_year = yo.resample('BA-May',how='sum')
 
+a = "asdfaoudf"
+
 """
 Chchanges
 """
